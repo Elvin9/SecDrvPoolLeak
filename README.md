@@ -1,4 +1,4 @@
-# SecDrvPoolLeak - A PoC for CVE-2018-7249
+# SecDrvPoolLeak - A PoC for CVE-2018-7250
 
 ### Description
 An issue was discovered in secdrv.sys as shipped in Microsoft Windows Vista, Windows 7, Windows 8, and Windows 8.1 before KB3086255, and as shipped in Macrovision SafeDisc. An uninitialized kernel pool allocation in IOCTL 0xCA002813 allows a local unprivileged attacker to leak 16 bits of uninitialized kernel PagedPool data.
